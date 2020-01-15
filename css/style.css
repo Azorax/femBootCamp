@@ -1,0 +1,66 @@
+/* my first css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavender;
+}
+
+img {
+    border: lightcoral 10px dashed;
+}
+
+h1 {
+    border: dotted 4px lightcyan;
+    background-image: url(http://placekitten.com/200/300);
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.testcalss {
+    text-align: center;
+}
+
+h2,h3 {
+    color: green;
+}
+
+ul a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+    font-size: 2rem;
+}
+
+a:visited {
+    color: green;
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a.harvard {
+    color: maroon;
+}
+
+#danger {
+    color: red;
+    font-weight: bold;
+}
+

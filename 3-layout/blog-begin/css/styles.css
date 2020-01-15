@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding-bottom: 0;
+    flex-flow: row nowrap;
+}
+
+.leftheader{
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: .5rem;
+}
+
+.rightheader {
+    flex-basis: 60%;
+    padding-left: .5rem;
+    margin-top: 3.5rem
+}
+
+.rightheader h1 {
+    color: purple;
+    font-size: 3rem;
+    margin:0;
+}
+
+.rightheader p {
+    margin-top: -.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav ul {
+    list-style: none;
+    border-top: purple solid 1px;
+    border-bottom: brown solid 1px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+nav ul li {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: .9rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+
+article img {
+    float: left;
+    clear: both;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+article {
+    padding-bottom: 80px;
+}
+
+section {
+    border-bottom: 1px red solid;
+    margin-bottom: 5px;
+}
+
+.readmore {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* To make the webpage be in the middle instead of stick to the edges*/
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: brown 1px solid;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+footer ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-left: 1px;
+    margin-right: 1px;
+}
