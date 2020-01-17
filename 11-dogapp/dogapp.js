@@ -29,10 +29,9 @@ function addDoggo(breed) {
         .then(function (data) {
             img.src = data.message;
             img.alt = 'cute doggo';
-                //hide loading show pic
-
+            //hide loading show pic
         });
-    
+
 
 }
 

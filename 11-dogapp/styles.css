@@ -7,6 +7,7 @@
     from {
         transform: rotateZ(0deg);
     }
+
     to {
         transform: rotateZ(360deg);
     }
@@ -24,7 +25,8 @@ header {
     align-items: center;
 }
 
-h1, .breeds {
+h1,
+.breeds {
     padding: .4rem;
 }
 
